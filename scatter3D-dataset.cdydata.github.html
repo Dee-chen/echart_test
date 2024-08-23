@@ -83,7 +83,7 @@ var fieldIndices = schema.reduce(function (obj, item) {
     myChart.showLoading();
     function mergeTables(table1, table2) { 
      const mergedTable = table1.map((row, index) => { return [...row, ...table2[index]]; }); return mergedTable; };
-    $.get('les.sp.echarts.onlycelltype.githubtest.json',function (data) {
+    $.get('https://github.com/Dee-chen/echart_test/blob/main/les.sp.echarts.onlycelltype.githubtest.json',function (data) {
     myChart.hideLoading();
     var symbolSize = 2;
     var sizeValue = '55%';
